@@ -1,0 +1,33 @@
+/* Tekil örnek panel ölçüleri ve gösterim değerleri; HTML üzerinde inline CSS kullanılmaz. */
+
+svg.svg-sprite-hidden { position:absolute; width:0; height:0; overflow:hidden; }
+.ui-breadcrumb-muted { font-weight:500; color:#8492a8; }
+.ui-heading-small { font-size:11px; }
+.lesson-status-muted { color:#a7b1be; }
+.eyebrow-on-dark { color:#ff97a2; }
+.width-78 { width:78%; }
+.width-42 { width:42%; }
+.fill-value-42 { --bar:.42; }
+.fill-value-65 { --bar:.65; }
+.fill-value-5 { --bar:.5; }
+.fill-value-86 { --bar:.86; }
+.fill-value-70 { --bar:.70; }
+.fill-value-98 { --bar:.98; }
+.fill-value-76 { --bar:.76; }
+.chart-value-24 { --height:24%; }
+.chart-value-39 { --height:39%; }
+.chart-value-33 { --height:33%; }
+.chart-value-59 { --height:59%; }
+.chart-value-54 { --height:54%; }
+.chart-value-78 { --height:78%; }
+.chart-value-94 { --height:94%; }
+.width-100 { width:100%; }
+.width-76 { width:76%; }
+.width-41 { width:41%; }
+.height-31 { height:31%; }
+.height-54 { height:54%; }
+.height-41 { height:41%; }
+.height-73 { height:73%; }
+.height-60 { height:60%; }
+.height-91 { height:91%; }
+.height-77 { height:77%; }

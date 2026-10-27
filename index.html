@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="tr" data-theme="midnight">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d1630" />
+  <meta name="description" content="TABİM Akademi – İşinizi kolaylaştıran yazılım eğitimleri, uygulamalı anlatımlar ve size özel öğrenme deneyimi." />
+  <title>TABİM Akademi | Bilgiyi İşinize Dönüştürün</title>
+    <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/motion.css" />
+  <link rel="stylesheet" href="assets/css/cinema.css" />
+  <link rel="stylesheet" href="assets/css/studio.css" />
+  <link rel="stylesheet" href="assets/css/scenes.css" />
+  <link rel="stylesheet" href="assets/css/cta.css" />
+  <link rel="stylesheet" href="assets/css/utilities.css" />
+  <link rel="stylesheet" href="assets/css/themes.css" />
+  <script src="assets/js/themes.js"></script>
+</head>
+<body>
+  <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="svg-sprite-hidden">
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1.6a2.3 2.3 0 0 0 1.7-3.9 1.7 1.7 0 0 1 1.2-2.8h1.8C23 14.3 23 3 12 3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="11" cy="7.5" r="1"/><circle cx="16" cy="8.4" r="1"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="13" rx="2"/><path d="M2 20h20"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 7a8 8 0 0 0-9-1v13a8 8 0 0 1 9 1 8 8 0 0 1 9-1V6a8 8 0 0 0-9 1Zm0 0v13"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 20 6v6c0 5-3.4 8.1-8 10-4.6-1.9-8-5-8-10V6l8-4Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 15l4-5 3 2 5-7"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M16 5a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 5"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="m5 16-1 2v2m15-4 1 2v2M4 12l2-6h12l2 6v5H4v-5Zm0 0h16M7 15h1m8 0h1"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2Zm9 0v6h5M9 12h7m-7 4h7"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10H3V11Zm6 10v-8h6v8"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h14v4M3 7h17a2 2 0 0 1 2 2v11H3V7Zm19 6h-6v4h6"/></symbol>
+    <symbol id="i-docs" viewBox="0 0 24 24"><path d="M8 3h9l4 4v14H8V3Zm9 0v4h4M4 7H3v14h12M11 12h6m-6 4h6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7 3 4 4c-3 7 9 19 16 16l1-3-5-4-3 3c-2-1-4-3-5-5l3-3-4-5Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2M4 13h4v7H5a2 2 0 0 1-2-2v-3a2 2 0 0 1 1-2Zm16 0h-4v7h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-1-2Z"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 2 2.3 7.7L22 12l-7.7 2.3L12 22l-2.3-7.7L2 12l7.7-2.3L12 2Z"/></symbol>
+    <symbol id="i-location" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  </svg>
+
+  <div class="top-strip"><div class="container top-inner"><span>Öğrenmenin yeni adresi <strong>· TABİM Akademi</strong></span><a href="tel:4440940"><svg><use href="#i-headphones"/></svg> TABİM İletişim: 444 0 940</a></div></div>
+  <header class="header" id="top"><div class="container nav">
+    <a class="brand" href="#top" aria-label="TABİM Akademi, ana sayfa"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><b>tabim</b><span>AKADEMİ</span></span></a>
+    <nav class="nav-links" id="main-nav" aria-label="Ana menü"><a href="#egitimler">Eğitimler</a><a href="#deneyim">Deneyim</a><a href="#canli-deneyim">Sinematik Sahne</a><a href="#neden-biz">Neden TABİM?</a><a href="#sss">Sık Sorulan Sorular</a><a href="#iletisim">İletişim</a></nav>
+    <a href="#egitimler" class="btn btn-dark">Eğitimleri Keşfet <svg><use href="#i-arrow-up"/></svg></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Menüyü aç"><svg><use href="#i-menu"/></svg></button>
+  </div></header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading"><span class="hero-spotlight" aria-hidden="true"></span><div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="hero-kicker"><i></i> TABİM AKADEMİ · DİJİTAL ÖĞRENME</span>
+        <h1 id="hero-heading">Bilgiyi öğrenin. <em>İşinize dönüştürün.</em></h1>
+        <p class="hero-desc">İş süreçlerinizi kolaylaştıran yazılımları adım adım keşfedin. İhtiyacınız olan eğitimlere tek yerden ulaşın, öğrendiklerinizi hemen uygulamaya başlayın.</p>
+        <div class="hero-actions"><a href="#egitimler" class="btn btn-primary">Eğitimleri Keşfet <svg><use href="#i-arrow"/></svg></a><a href="#deneyim" class="btn btn-ghost"><svg><use href="#i-play"/></svg> 3D Deneyimi İzle</a></div>
+        <div class="hero-benefits"><span><svg><use href="#i-check-circle"/></svg> Kolay erişim</span><span><svg><use href="#i-check-circle"/></svg> Uygulamalı içerik</span><span><svg><use href="#i-check-circle"/></svg> Kendi hızınızda öğrenin</span></div>
+      </div>
+      <div class="hero-stage" aria-label="Örnek TABİM Akademi eğitim paneli görünümü">
+        <div class="hero-orbit"></div><div class="hero-orbit orbit2"></div>
+        <div class="ui-window-shell"><div class="ui-window"><div class="ui-top"><div class="ui-mark"><i></i> tabim <span class="ui-breadcrumb-muted">/ Akademi</span></div><small>Eğitim Paneli · Tasarım önizlemesi</small></div>
+          <div class="ui-body"><aside class="ui-side"><div class="side-line active"></div><div class="side-line"></div><div class="side-line"></div><div class="side-line"></div><div class="side-line"></div></aside>
+            <div class="ui-main"><div class="ui-greeting">Öğrenmeye devam edin 👋</div><div class="ui-sub">Kaldığınız yerden kolayca devam edin.</div>
+              <div class="ui-progress"><div><div class="mini-head">Örnek öğrenme ilerlemesi</div><strong>Güzel gidiyorsunuz!</strong><div class="bar"><i></i></div></div><div class="circle-progress"></div></div>
+              <div class="ui-greeting ui-heading-small">Eğitim akışınız</div><div class="ui-lessons">
+                <div class="ui-lesson"><div class="lesson-square"><svg><use href="#i-book"/></svg></div><div><b>Programa giriş ve tanıtım</b><small>Temel başlangıç</small></div><div class="lesson-done"><svg><use href="#i-check-circle"/></svg></div></div>
+                <div class="ui-lesson"><div class="lesson-square"><svg><use href="#i-car"/></svg></div><div><b>Kayıt ve yönetim işlemleri</b><small>Uygulamalı eğitim</small></div><div class="lesson-done"><svg><use href="#i-check-circle"/></svg></div></div>
+                <div class="ui-lesson"><div class="lesson-square"><svg><use href="#i-chart"/></svg></div><div><b>Raporlar ve takip</b><small>Sıradaki konu</small></div><div class="lesson-done lesson-status-muted"><svg><use href="#i-clock"/></svg></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div><!-- ui-window-shell -->
+        <div class="float-card one"><div class="float-icon"><svg><use href="#i-check-circle"/></svg></div><div><b>Adım adım öğrenin</b><small>Her aşamada daha fazla bilgi</small></div></div>
+        <div class="float-card two"><div class="float-icon"><svg><use href="#i-sparkles"/></svg></div><div><b>Pratik içerikler</b><small>Gerçek iş akışlarına odaklı</small></div></div>
+      </div>
+    </div><div class="hero-bottom"></div></section>
+
+    <section class="quickbar" aria-label="Platformun avantajları"><div class="container"><div class="quickgrid">
+      <div class="quickitem"><div class="quick-icon"><svg><use href="#i-laptop"/></svg></div><div><b>Her yerden erişim</b><small>Bilgisayarınızdan veya telefonunuzdan öğrenin.</small></div></div>
+      <div class="quickitem"><div class="quick-icon"><svg><use href="#i-book"/></svg></div><div><b>İhtiyacınıza uygun konular</b><small>İşinize yarayan eğitime hızla ulaşın.</small></div></div>
+      <div class="quickitem"><div class="quick-icon"><svg><use href="#i-shield"/></svg></div><div><b>Güvenilir bilgi kaynağı</b><small>TABİM ürünleri ve iş süreçleri odaklı içerikler.</small></div></div>
+    </div></div></section>
+
+
+    <!-- SİNEMATİK VİTRİN: scroll ile fiziksel olarak hareket eden üç laptop. -->
+    <section class="cinema-section" id="deneyim" aria-label="TABİM Akademi sinematik deneyim vitrini">
+      <div class="cinema-sticky">
+        <div class="cinema-ambient" aria-hidden="true"><span class="cinema-grid"></span><span class="cinema-halo halo-a"></span><span class="cinema-halo halo-b"></span><span class="cinema-ring ring-one"></span><span class="cinema-ring ring-two"></span></div>
+        <div class="cinema-watermark" aria-hidden="true">LEARN / CREATE / GROW</div>
+        <div class="cinema-copy">
+          <div class="scene-copy is-active" data-copy="0">
+            <div class="scene-tag"><span class="scene-tag-dot"></span> 01 / ÖĞRENME KONTROLÜ</div>
+            <h2>Eğitimleriniz.<br><em>Yeni bir boyutta.</em></h2>
+            <p>Her şeye hâkim olun. Eğitimler, dersler ve kaldığınız noktalar tek bir ekranda. Akıcı bir öğrenme deneyimi için yeniden düşündük.</p>
+            <a href="#egitimler" class="scene-link">Eğitimleri keşfet <svg><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="scene-copy" data-copy="1" aria-hidden="true">
+            <div class="scene-tag"><span class="scene-tag-dot"></span> 02 / ETKİLEŞİMLİ DERSLER</div>
+            <h2>İzleyin.<br><em>Öğrenin. Uygulayın.</em></h2>
+            <p>Dersleri, içerikleri ve modülleri tek akışta takip edin. Ekran değiştikçe öğrenme deneyimi de bir üst seviyeye taşınsın.</p>
+            <a href="#nasil-calisir" class="scene-link" tabindex="-1">Nasıl çalışır? <svg><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="scene-copy" data-copy="2" aria-hidden="true">
+            <div class="scene-tag"><span class="scene-tag-dot"></span> 03 / AKILLI İLERLEME</div>
+            <h2>Gelişiminizi<br><em>gözünüzle görün.</em></h2>
+            <p>İlerlemenizi grafiklerle keşfedin, tamamladığınız adımları izleyin. Öğrenmenin her aşamasını daha anlaşılır hâle getirin.</p>
+            <a href="#egitimler" class="scene-link" tabindex="-1">Hemen keşfet <svg><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <div class="cinema-display" aria-hidden="true">
+          <div class="cinema-spark spark-a"></div><div class="cinema-spark spark-b"></div><div class="cinema-spark spark-c"></div>
+          <div class="cinema-laptop device-a">
+            <div class="laptop-lid"><div class="laptop-camera"></div><div class="laptop-screen">
+              <div class="demo demo-dashboard">
+                <aside class="demo-sidebar"><div class="demo-logo"><b>t</b><span>tabim <small>AKADEMİ</small></span></div><div class="demo-side-item selected">▦ <span>Genel Bakış</span></div><div class="demo-side-item">▣ <span>Eğitimlerim</span></div><div class="demo-side-item">◈ <span>Başarılar</span></div><div class="demo-side-item">◫ <span>Kaynaklar</span></div><div class="demo-side-bottom"><span>◉</span> Öğrenci paneli</div></aside>
+                <div class="demo-main"><div class="demo-topline"><span>Akademim / Genel bakış</span><span class="demo-avatar">BK</span></div><div class="demo-welcome"><small>TEKRAR HOŞ GELDİNİZ</small><h3>Öğrenme yolculuğunuz ✨</h3><p>Bugün de yeni bir şey öğrenmeye hazır mısınız?</p></div>
+                  <div class="demo-statrow"><div><small>Tamamlanan ders</small><strong>24 <i>↗</i></strong></div><div><small>Devam eden</small><strong>03 <i>●</i></strong></div><div><small>Başarı puanı</small><strong>96 <i>✦</i></strong></div></div>
+                  <div class="demo-content-head"><b>Devam ettiğiniz eğitimler</b><small>Tümünü gör →</small></div>
+                  <div class="demo-classes"><div class="demo-class"><span class="demo-class-cover cover-one">◈</span><span><b>Sürücü Kursu Otomasyonu</b><small>Temel işlemler · %78 tamamlandı</small><i class="demo-bar"><i class="width-78"></i></i></span></div><div class="demo-class"><span class="demo-class-cover cover-two">▱</span><span><b>Raporlama ve Verimlilik</b><small>İleri seviye · %42 tamamlandı</small><i class="demo-bar"><i class="width-42"></i></i></span></div></div>
+                </div>
+              </div>
+            </div></div><div class="laptop-hinge"></div><div class="laptop-base"><div class="laptop-keys"></div><div class="laptop-trackpad"></div></div><div class="laptop-front"></div>
+            <div class="device-reflection"></div>
+          </div>
+          <div class="cinema-laptop device-b">
+            <div class="laptop-lid"><div class="laptop-camera"></div><div class="laptop-screen">
+              <div class="demo demo-lessons"><div class="demo-video-main"><div class="demo-lesson-top">◀ &nbsp; Eğitimlerim <span>Modül 02 / Ders 05</span></div><div class="demo-video-inner"><span class="demo-video-label">UYGULAMALI EĞİTİM</span><span class="demo-video-circles"></span><div class="demo-play-triangle">▶</div><h3>Adım adım öğrenin</h3><p>Yeni kayıt işlemleri</p></div><div class="demo-video-progress"><span></span></div><div class="demo-video-controls">▶ &nbsp; 08:24 / 16:30 <span>◉ &nbsp; ▣ &nbsp; ◱</span></div><div class="demo-lesson-bottom"><b>Kursiyer Kaydı — Uygulama</b><small>Pratik eğitim serisi / Örnek içerik</small></div></div><aside class="demo-lessons-panel"><b>Ders İçeriği</b><small>12 ders • 3 bölüm</small><div class="demo-lesson-row done"><i>✓</i><span>Tanışma ve giriş<small>04:20</small></span></div><div class="demo-lesson-row done"><i>✓</i><span>Ana ekranı tanıyalım<small>06:18</small></span></div><div class="demo-lesson-row current"><i>▶</i><span>Yeni kursiyer kaydı<small>16:30</small></span></div><div class="demo-lesson-row"><i>04</i><span>Kayıt güncelleme<small>09:45</small></span></div><div class="demo-lesson-row"><i>05</i><span>Rapor oluşturma<small>12:10</small></span></div><div class="demo-lesson-note">✦ &nbsp; Öğrenmeye devam et!</div></aside></div>
+            </div></div><div class="laptop-hinge"></div><div class="laptop-base"><div class="laptop-keys"></div><div class="laptop-trackpad"></div></div><div class="laptop-front"></div><div class="device-reflection"></div>
+          </div>
+          <div class="cinema-laptop device-c">
+            <div class="laptop-lid"><div class="laptop-camera"></div><div class="laptop-screen"><div class="demo demo-analytics"><div class="analytics-head"><div class="analytics-brand"><b>t</b> TABİM <small>ACADEMY INSIGHTS</small></div><span>Gelişim Raporu &nbsp; ●</span></div><div class="analytics-body"><div class="analytics-intro"><small>GENEL RAPOR</small><h3>Gelişiminiz rakamlara yansıyor.</h3><p>Öğrenme durumunuz — örnek gösterim</p></div><div class="analytics-cards"><div><small>Toplam ilerleme</small><b>%86</b><span class="gain">↑ %12</span></div><div><small>Öğrenme süresi</small><b>32,5 sa</b><span class="gain">↑ %8</span></div><div><small>Tamamlanan modül</small><b>18 / 21</b><span class="gain">↑ %16</span></div></div><div class="analytics-graph"><div><strong>Öğrenme Aktivitesi</strong><small>Son 7 gün</small></div><div class="analytics-bars"><span class="fill-value-42"></span><span class="fill-value-65"></span><span class="fill-value-5"></span><span class="fill-value-86"></span><span class="fill-value-70"></span><span class="fill-value-98"></span><span class="fill-value-76"></span></div><div class="analytics-days"><span>Pzt</span><span>Sal</span><span>Çar</span><span>Per</span><span>Cum</span><span>Cmt</span><span>Paz</span></div></div></div></div>
+            </div></div><div class="laptop-hinge"></div><div class="laptop-base"><div class="laptop-keys"></div><div class="laptop-trackpad"></div></div><div class="laptop-front"></div><div class="device-reflection"></div>
+          </div>
+          <div class="cinema-label floating-tag tag-a">✦ &nbsp; KESİNTİSİZ ÖĞRENME</div><div class="cinema-label floating-tag tag-b">↗ &nbsp; TAM KONTROL</div>
+        </div>
+        <div class="cinema-bottom container"><div class="cinema-scroll-hint"><span class="cinema-scroll-mouse"><i></i></span> KAYDIR VE KEŞFET</div><div class="cinema-timeline"><button class="cinema-step is-active" type="button" data-cinema-jump="0" aria-label="Birinci ekran: Eğitim paneli"><i></i><span>01</span></button><button class="cinema-step" type="button" data-cinema-jump="1" aria-label="İkinci ekran: Video dersleri"><i></i><span>02</span></button><button class="cinema-step" type="button" data-cinema-jump="2" aria-label="Üçüncü ekran: Raporlar"><i></i><span>03</span></button></div><div class="cinema-track"><span id="cinema-track-fill"></span></div></div>
+      </div>
+    </section>
+    <div class="cinema-ticker" aria-hidden="true"><div class="ticker-inner"><span>TABİM AKADEMİ</span><i>✳</i><span>DAHA AKILLI ÖĞRENME</span><i>✳</i><span>HER YERDE EĞİTİM</span><i>✳</i><span>GELECEĞİ KEŞFET</span><i>✳</i><span>TABİM AKADEMİ</span><i>✳</i><span>DAHA AKILLI ÖĞRENME</span><i>✳</i><span>HER YERDE EĞİTİM</span><i>✳</i><span>GELECEĞİ KEŞFET</span><i>✳</i></div></div>
+
+    <section class="courses" id="egitimler"><div class="container">
+      <div class="section-head"><div><span class="eyebrow">EĞİTİM KATALOĞU</span><h2>Öğrenmek istediğiniz<br>konuyu keşfedin.</h2></div><p>Alanınıza uygun eğitim başlıklarını bulun. Aşağıdaki kartlar yeni platform için hazırlanmış <strong>örnek katalog</strong> içerikleridir.</p></div>
+      <div class="filter-area"><div class="filters" role="group" aria-label="Eğitim kategorileri"><button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">Tüm Eğitimler</button><button type="button" class="filter-btn" data-filter="kurs" aria-pressed="false">Kurs Yönetimi</button><button type="button" class="filter-btn" data-filter="yonetim" aria-pressed="false">Yönetim</button><button type="button" class="filter-btn" data-filter="finans" aria-pressed="false">Finans & Muhasebe</button></div><label class="search-wrap"><svg><use href="#i-search"/></svg><input id="course-search" type="search" placeholder="Eğitim ara..." aria-label="Eğitim ara" autocomplete="off" /></label></div>
+      <div class="course-grid" id="course-grid">
+        <article class="course-card" data-category="kurs" data-id="surucu"><div class="course-art art-blue"><span class="art-pill">KURS YÖNETİMİ</span><div class="art-large-icon"><svg><use href="#i-car"/></svg></div><div class="art-illustration"><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div></div></div><div class="course-content"><div class="course-meta"><span>UYGULAMALI EĞİTİM</span><i class="dot"></i><span>BAŞLANGIÇ</span></div><h3>Sürücü Kursu Otomasyonu</h3><p>Kursiyer kayıtlarından ders ve sınav süreçlerine kadar temel iş akışlarını keşfedin.</p><div class="course-foot"><span><svg><use href="#i-book"/></svg> Örnek eğitim</span><button type="button" data-open="surucu">İncele <svg><use href="#i-arrow"/></svg></button></div></div></article>
+        <article class="course-card" data-category="kurs" data-id="src"><div class="course-art art-pink"><span class="art-pill">KURS YÖNETİMİ</span><div class="art-large-icon"><svg><use href="#i-users"/></svg></div><div class="art-illustration"><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div></div></div><div class="course-content"><div class="course-meta"><span>İŞ AKIŞLARI</span><i class="dot"></i><span>BAŞLANGIÇ</span></div><h3>SRC Kurs İşlemleri</h3><p>Öğrenci takibi, sınav listeleri ve günlük yönetim işlemlerini pratik biçimde öğrenin.</p><div class="course-foot"><span><svg><use href="#i-book"/></svg> Örnek eğitim</span><button type="button" data-open="src">İncele <svg><use href="#i-arrow"/></svg></button></div></div></article>
+        <article class="course-card" data-category="yonetim" data-id="site"><div class="course-art art-teal"><span class="art-pill">YÖNETİM</span><div class="art-large-icon"><svg><use href="#i-home"/></svg></div><div class="art-illustration"><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div></div></div><div class="course-content"><div class="course-meta"><span>YÖNETİM ARAÇLARI</span><i class="dot"></i><span>BAŞLANGIÇ</span></div><h3>Site ve Apartman Yönetimi</h3><p>Bağımsız bölüm, aidat ve yönetim kayıtlarını düzenli yönetmenin temel adımları.</p><div class="course-foot"><span><svg><use href="#i-book"/></svg> Örnek eğitim</span><button type="button" data-open="site">İncele <svg><use href="#i-arrow"/></svg></button></div></div></article>
+        <article class="course-card" data-category="finans" data-id="muhasebe"><div class="course-art art-purple"><span class="art-pill">FİNANS & MUHASEBE</span><div class="art-large-icon"><svg><use href="#i-wallet"/></svg></div><div class="art-illustration"><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div></div></div><div class="course-content"><div class="course-meta"><span>TEMEL İŞLEMLER</span><i class="dot"></i><span>BAŞLANGIÇ</span></div><h3>Genel Muhasebe Temelleri</h3><p>Fiş girişlerinden hesap planına, temel muhasebe operasyonlarına genel bakış.</p><div class="course-foot"><span><svg><use href="#i-book"/></svg> Örnek eğitim</span><button type="button" data-open="muhasebe">İncele <svg><use href="#i-arrow"/></svg></button></div></div></article>
+        <article class="course-card" data-category="finans" data-id="efatura"><div class="course-art art-peach"><span class="art-pill">FİNANS & MUHASEBE</span><div class="art-large-icon"><svg><use href="#i-docs"/></svg></div><div class="art-illustration"><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div></div></div><div class="course-content"><div class="course-meta"><span>DİJİTAL SÜREÇLER</span><i class="dot"></i><span>ORTA SEVİYE</span></div><h3>E-Fatura ve E-Defter</h3><p>Elektronik belge süreçlerine, kayıt akışına ve temel kontrol adımlarına giriş.</p><div class="course-foot"><span><svg><use href="#i-book"/></svg> Örnek eğitim</span><button type="button" data-open="efatura">İncele <svg><use href="#i-arrow"/></svg></button></div></div></article>
+        <article class="course-card" data-category="yonetim" data-id="rapor"><div class="course-art art-ice"><span class="art-pill">YÖNETİM</span><div class="art-large-icon"><svg><use href="#i-chart"/></svg></div><div class="art-illustration"><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div><div class="art-mini-row"><i></i></div></div></div><div class="course-content"><div class="course-meta"><span>VERİ & ANALİZ</span><i class="dot"></i><span>ORTA SEVİYE</span></div><h3>Raporlama ve Verimlilik</h3><p>Rapor ekranlarını daha etkili kullanın, günlük verileri anlamlı çıktılara dönüştürün.</p><div class="course-foot"><span><svg><use href="#i-book"/></svg> Örnek eğitim</span><button type="button" data-open="rapor">İncele <svg><use href="#i-arrow"/></svg></button></div></div></article>
+      </div>
+    </div></section>
+
+
+    <!-- TABIM 360: interactive, illustrated product tour; all data on-screen is demo. -->
+    <section class="lab-section" id="akademi-360" aria-labelledby="lab-title">
+      <div class="lab-back-grid" aria-hidden="true"></div>
+      <div class="container lab-wrap">
+        <div class="lab-header">
+          <span class="lab-brow"><span class="lab-spark">✳</span> YENİ NESİL ÖĞRENME DENEYİMİ <span class="lab-number">/ 360°</span></span>
+          <span class="lab-demo-tag"><span></span> ETKİLEŞİMLİ DEMO</span>
+        </div>
+        <div class="lab-content">
+          <div class="lab-info">
+            <span class="lab-overline">BİR EKRANDAN DAHA FAZLASI</span>
+            <h2 id="lab-title">Bir tıkla başla.<br><em>Akışa kapıl.</em></h2>
+            <p>Öğrenme yolculuğunuza yakından bakın. Adımlara dokunun; platformun örnek ekranları gözünüzün önünde değişsin.</p>
+            <div class="lab-tabs" role="tablist" aria-label="Öğrenme adımları">
+              <button class="lab-tab is-active" id="lab-tab-0" role="tab" type="button" data-lab-tab="0" aria-selected="true" aria-controls="lab-panel-0" tabindex="0"><span class="lab-tab-num">01</span><span class="lab-tab-words"><strong>Eğitimini keşfet</strong><small>Konunu bul, kendi yolunu çiz.</small></span><span class="lab-tab-arrow">↗</span></button>
+              <button class="lab-tab" id="lab-tab-1" role="tab" type="button" data-lab-tab="1" aria-selected="false" aria-controls="lab-panel-1" tabindex="-1"><span class="lab-tab-num">02</span><span class="lab-tab-words"><strong>Uygulayarak öğren</strong><small>Adım adım, kendi hızında.</small></span><span class="lab-tab-arrow">↗</span></button>
+              <button class="lab-tab" id="lab-tab-2" role="tab" type="button" data-lab-tab="2" aria-selected="false" aria-controls="lab-panel-2" tabindex="-1"><span class="lab-tab-num">03</span><span class="lab-tab-words"><strong>İlerlemeni izle</strong><small>Her küçük adım, büyük gelişim.</small></span><span class="lab-tab-arrow">↗</span></button>
+            </div>
+            <div class="lab-controls"><span class="lab-control-caption">DENEYİM <b id="lab-count">01</b> / 03</span><button type="button" class="lab-autoplay" id="lab-autoplay" aria-pressed="true" aria-label="Otomatik geçişleri durdur"><span class="lab-pause-icon" aria-hidden="true">Ⅱ</span><span id="lab-play-label">Otomatik geçiş açık</span></button></div>
+          </div>
+          <div class="lab-theatre" aria-label="Üç adımlı eğitim platformu görsel demosu">
+            <div class="lab-orbit orbit-one" aria-hidden="true"></div><div class="lab-orbit orbit-two" aria-hidden="true"></div>
+            <div class="lab-aura" aria-hidden="true"></div>
+            <div class="lab-float-card float-top" aria-hidden="true"><span>✦</span><div><b>Yeni beceriler</b><small>Bir tık uzağınızda</small></div></div>
+            <div class="lab-monitor-frame"><div class="lab-display-top"><div class="lab-dots"><i></i><i></i><i></i></div><div class="lab-url"><span>◈</span> akademi.tabim / demo</div><span class="lab-window-action">◱</span></div>
+              <div class="lab-display-body">
+                <aside class="lab-visual-sidebar" aria-hidden="true"><div class="lab-mini-logo">t<span>.</span></div><i class="lab-side-pip active"></i><i class="lab-side-pip"></i><i class="lab-side-pip"></i><i class="lab-side-pip"></i><i class="lab-side-avatar"></i></aside>
+                <div class="lab-panels">
+                  <div class="lab-panel is-active" id="lab-panel-0" role="tabpanel" data-lab-screen="0" aria-labelledby="lab-tab-0" aria-hidden="false">
+                    <div class="lab-panel-heading"><div><small>KEŞFET / EĞİTİMLER</small><h3>Bugün ne öğreneceğiz?</h3></div><span class="lab-screen-avatar">TA</span></div>
+                    <div class="lab-search-demo"><span>⌕</span> Eğitimlerde ara... <i>⌘ K</i></div>
+                    <div class="lab-screen-chips"><span class="selected">Tümü</span><span>Kurs İşlemleri</span><span>Yönetim</span></div>
+                    <div class="lab-course-mini-row"><div class="lab-mini-course"><span class="lab-mini-art mini-purple">◈</span><b>Sürücü Kursu<br>Otomasyonu</b><small>Örnek eğitim</small><i></i></div><div class="lab-mini-course"><span class="lab-mini-art mini-coral">▤</span><b>Genel Muhasebe<br>Temelleri</b><small>Örnek eğitim</small><i></i></div><div class="lab-mini-course"><span class="lab-mini-art mini-mint">◇</span><b>Site & Apartman<br>Yönetimi</b><small>Örnek eğitim</small><i></i></div></div>
+                  </div>
+                  <div class="lab-panel" id="lab-panel-1" role="tabpanel" data-lab-screen="1" aria-labelledby="lab-tab-1" aria-hidden="true">
+                    <div class="lab-panel-heading"><div><small>DERS 02 / EĞİTİMİM</small><h3>Birlikte uygulayalım.</h3></div><span class="lab-screen-avatar">TA</span></div>
+                    <div class="lab-screen-player"><div class="lab-player-glow"></div><span class="lab-player-overline">UYGULAMALI ANLATIM</span><span class="lab-player-play">▶</span><span class="lab-player-caption">Kursiyer kaydını oluşturma</span><span class="lab-player-timeline"><i></i></span></div>
+                    <div class="lab-player-bottom"><span><i class="lab-green-dot"></i> Ders oynatıcı önizlemesi</span><b>02 / 05</b></div>
+                  </div>
+                  <div class="lab-panel" id="lab-panel-2" role="tabpanel" data-lab-screen="2" aria-labelledby="lab-tab-2" aria-hidden="true">
+                    <div class="lab-panel-heading"><div><small>AKADEMİM / GELİŞİMİM</small><h3>Harika gidiyorsun!</h3></div><span class="lab-screen-avatar">TA</span></div>
+                    <div class="lab-performance"><div class="lab-stat"><small>ÖRNEK İLERLEME</small><strong>78<span>%</span></strong><span>↗ Güzel bir başlangıç</span></div><div class="lab-stat-chart"><span class="lab-chart-label">ÖĞRENME AKIŞI</span><div class="lab-chart-cols"><i class="chart-value-24"></i><i class="chart-value-39"></i><i class="chart-value-33"></i><i class="chart-value-59"></i><i class="chart-value-54"></i><i class="chart-value-78"></i><i class="chart-value-94"></i></div><div class="lab-chart-days"><span>P</span><span>S</span><span>Ç</span><span>P</span><span>C</span><span>C</span><span>P</span></div></div></div>
+                    <div class="lab-progress-card"><span>Bir sonraki adım <b>03 / 04</b></span><i><i></i></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab-monitor-foot" aria-hidden="true"><span></span></div>
+            <div class="lab-phone" aria-hidden="true"><div class="lab-phone-notch"></div><div class="lab-phone-top"><span>09:41</span><span>◔ ▂</span></div><div class="lab-phone-brand"><span>t</span> AKADEMİ</div><div class="lab-phone-title" id="lab-phone-title">Öğrenmeye başla</div><div class="lab-phone-ring"><span id="lab-phone-value">01</span><small>ADIM</small></div><div class="lab-phone-caption" id="lab-phone-caption">Bir konu seç, yolculuğun başlasın.</div><div class="lab-phone-bars"><i></i><i></i><i></i></div><div class="lab-phone-home"></div></div>
+            <div class="lab-float-card float-bottom" aria-hidden="true"><span class="check">✓</span><div><b>Öğrenme akışı</b><small>Hep yanınızda</small></div></div>
+            <div class="lab-stage-pagination" aria-hidden="true"><i class="is-active"></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div class="lab-endnote"><span>✳ &nbsp; AKIŞI YÖNET, ÖĞRENMEYİ KEŞFET</span><span>Konsept ekranlar · Gerçek öğrenci verileri değildir</span></div>
+      </div>
+    </section>
+
+
+    <!-- Interactive scroll cinema II: fully original HTML/CSS learning scenes, not pre-rendered images. -->
+    <section class="motion-chapter motion-lessons" id="canli-deneyim" aria-label="Sinematik ders deneyimi">
+      <div class="motion-sticky">
+        <div class="motion-atmo motion-atmo-a" aria-hidden="true"></div><div class="motion-atmo motion-atmo-b" aria-hidden="true"></div>
+        <div class="motion-grid" aria-hidden="true"></div>
+        <div class="container motion-headline"><div class="motion-super">TABİM AKADEMİ <span> / </span> SİNEMATİK DENEYİM <b>02</b></div>
+          <div class="motion-texts">
+            <div class="motion-text is-current" data-motion-copy="0"><span class="motion-serial">01 — DERS OYNATICISI</span><h2>Sadece izleme.<br><em>İçine gir.</em></h2><p>Öğrenme ekranı kaydırdıkça sana yaklaşıyor. Konuları yalnızca okumak değil, adım adım keşfetmek için tasarlanmış bir deneyim.</p></div>
+            <div class="motion-text" data-motion-copy="1"><span class="motion-serial">02 — İÇERİK AKIŞI</span><h2>Her modül.<br><em>Bir sonraki adım.</em></h2><p>Dersler katman katman açılıyor. Karmaşık iş akışlarını anlaşılır eğitim parçalarına bölmek artık çok daha kolay.</p></div>
+            <div class="motion-text" data-motion-copy="2"><span class="motion-serial">03 — TAMAMLANDI</span><h2>Öğren.<br><em>Başardığını gör.</em></h2><p>Son adımda ilerleme kartların ve tamamlanma ekranın bir araya geliyor. Öğrencinin yolculuğu görsel bir hikâyeye dönüşüyor.</p></div>
+          </div>
+          <a href="#egitimler" class="motion-cta">EĞİTİMLERE GÖZ AT <span>↗</span></a>
+        </div>
+        <div class="motion-visual" aria-hidden="true">
+          <div class="mv-ring mv-ring-one"></div><div class="mv-ring mv-ring-two"></div>
+          <div class="mv-shimmer mv-shimmer-one">✳</div><div class="mv-shimmer mv-shimmer-two">✦</div>
+          <div class="mv-tablet mv-device" data-ml-device="tablet">
+            <div class="mv-camera"></div><div class="mv-tablet-screen">
+              <div class="mv-player-layout"><div class="mv-player-top"><span><b>t.</b> tabim akademi</span><span>Ders 02 / 06 <i>●</i></span></div>
+                <div class="mv-player-main"><span class="mv-player-tag">UYGULAMALI DERS · ÖRNEK EKRAN</span><div class="mv-video-play"><span>▶</span></div><strong>Sürücü kursu otomasyonu</strong><small>Yeni kayıt işlemleri · Eğitim önizlemesi</small><div class="mv-video-track"><i></i></div></div>
+                <div class="mv-player-foot"><span>▶ &nbsp; 08:24 / 16:30</span><span>◖&nbsp; ☷&nbsp; ⛶</span></div>
+              </div>
+            </div><div class="mv-tablet-edge"></div>
+          </div>
+          <div class="mv-stack" data-ml-device="stack">
+            <div class="mv-stack-card" data-stack-card="0"><span class="stack-num">01</span><div class="stack-icon">✧</div><div><small>GİRİŞ / TEMELLER</small><strong>Platforma merhaba</strong><p>İlk adımı birlikte atalım.</p><i><span class="width-100"></span></i></div><b>✓</b></div>
+            <div class="mv-stack-card" data-stack-card="1"><span class="stack-num">02</span><div class="stack-icon">◈</div><div><small>İŞLEMLER / UYGULAMA</small><strong>Yeni kayıt oluşturma</strong><p>Uygulayarak öğrenin.</p><i><span class="width-76"></span></i></div><b>▶</b></div>
+            <div class="mv-stack-card" data-stack-card="2"><span class="stack-num">03</span><div class="stack-icon">⌁</div><div><small>ANALİZ / RAPORLAMA</small><strong>Gelişimini takip et</strong><p>Öğrendiklerini görün.</p><i><span class="width-41"></span></i></div><b>↗</b></div>
+          </div>
+          <div class="mv-success" data-ml-device="success"><div class="mv-success-glass"><span class="mv-success-top">✦ &nbsp; TABİM AKADEMİ</span><span class="mv-success-star">✳</span><span class="mv-success-caption">ÖĞRENME YOLCULUĞU</span><strong>Harika bir<br>başlangıç.</strong><span class="mv-success-rule"></span><p>Her yeni bilgi, sizi bir adım daha ileri taşır.</p><span class="mv-success-bottom">ÖRNEK TAMAMLAMA EKRANI <span>↗</span></span></div><div class="mv-success-orbit"></div></div>
+          <div class="mv-float-note" data-ml-device="note"><span>✓</span><b>Bir adım daha!</b><small>Öğrenme akışını tamamladın.</small></div>
+        </div>
+        <div class="motion-foot container"><span class="motion-scroll-call">↓ &nbsp; KAYDIR, SAHNE DEĞİŞSİN</span><div class="motion-jumps" aria-label="Ders sahnesi seçimi"><button type="button" data-ml-jump="0" class="is-current" aria-label="Ders oynatıcısı sahnesi" aria-current="step">01</button><button type="button" data-ml-jump="1" aria-label="Eğitim modülleri sahnesi">02</button><button type="button" data-ml-jump="2" aria-label="İlerleme sahnesi">03</button></div><div class="motion-long-track"><i data-ml-progress></i></div></div>
+      </div>
+    </section>
+
+    <section class="learn" id="nasil-calisir"><div class="container learn-grid"><div class="learn-copy"><span class="eyebrow">ÖĞRENME DENEYİMİ</span><h2 class="section-title">Karmaşık işlemleri<br>kolayca öğrenin.</h2><p>Bir eğitim platformundan fazlası: ihtiyacınız olan konuyu hızla bulabileceğiniz, adımları takip edip günlük işinize uygulayabileceğiniz sade bir öğrenme alanı.</p>
+      <div class="steps"><div class="step"><span class="step-count">01</span><div><b>Konunuzu seçin</b><p>İlgilendiğiniz ürün ya da iş süreci üzerinden başlayın.</p></div></div><div class="step"><span class="step-count">02</span><div><b>Adım adım ilerleyin</b><p>Açık anlatımlar ve uygulama odaklı bölümlerle öğrenin.</p></div></div><div class="step"><span class="step-count">03</span><div><b>Bilgiyi uygulayın</b><p>Öğrendiklerinizi gerçek çalışma sürecinizde kullanın.</p></div></div></div>
+      <a href="#egitimler" class="btn btn-outline">Eğitimleri İncele <svg><use href="#i-arrow"/></svg></a>
+    </div><div class="learn-visual"><div class="learn-dashboard"><div class="learn-top"><span class="learn-title">Eğitim oynatıcı · Tasarım örneği</span><span class="circle-avatar">TA</span></div><div class="learn-video"><button type="button" class="play-btn" id="preview-play" aria-label="Eğitim oynatıcı önizlemesini incele"><svg><use href="#i-play"/></svg></button></div><div class="learn-lesson-title">Kursiyer İşlemleri / Yeni Kayıt</div><div class="learn-lesson-sub">Örnek ders ekranı · Video bağlı değil</div><div class="lesson-progress-track"><i></i></div></div><div class="visual-chip"><svg><use href="#i-check-circle"/></svg> Kendi hızınızda ilerleyin</div></div></div></section>
+
+    <section class="why" id="neden-biz"><div class="container"><span class="eyebrow">NEDEN TABİM AKADEMİ?</span><h2 class="section-title">Öğrenmeyi kolaylaştıran<br>her şey bir arada.</h2><div class="why-grid">
+      <div class="why-card"><div class="why-icon"><svg><use href="#i-laptop"/></svg></div><h3>Sade kullanım</h3><p>Dikkatiniz dağılmadan eğitiminize odaklanacağınız anlaşılır bir arayüz.</p></div>
+      <div class="why-card"><div class="why-icon"><svg><use href="#i-book"/></svg></div><h3>Konu odaklı içerik</h3><p>İhtiyacınız olan bilgiye gereksiz adımlarla uğraşmadan ulaşın.</p></div>
+      <div class="why-card"><div class="why-icon"><svg><use href="#i-chart"/></svg></div><h3>Takip edilebilir ilerleme</h3><p>Yeni tasarımda kaldığınız yeri ve sonraki adımı kolayca görün.</p></div>
+      <div class="why-card"><div class="why-icon"><svg><use href="#i-headphones"/></svg></div><h3>İletişim kolaylığı</h3><p>Sorularınızı doğru kanala iletmek için açık iletişim seçenekleri.</p></div>
+    </div><div class="why-journey" aria-label="Öğrenme sürecinin üç adımı"><div class="why-milestone"><i>01</i><div><b>Keşfet</b><small>İhtiyacına uygun konuyu seç.</small></div></div><div class="why-milestone"><i>02</i><div><b>Öğren</b><small>Pratik adımlarla ilerle.</small></div></div><div class="why-milestone"><i>03</i><div><b>Uygula</b><small>Öğrendiklerini işine taşı.</small></div></div></div></div></section>
+
+
+    <!-- Interactive scroll cinema III: laptop, tablet and phone converge in the final scene. -->
+    <section class="eco-chapter" id="her-ekranda" aria-label="Cihazlar arası öğrenme deneyimi">
+      <div class="eco-sticky"><div class="eco-light eco-light-a" aria-hidden="true"></div><div class="eco-light eco-light-b" aria-hidden="true"></div>
+        <div class="eco-mesh" aria-hidden="true"></div>
+        <div class="container eco-heading"><div class="eco-label">TABİM AKADEMİ &nbsp;/&nbsp; DİJİTAL DENEYİM <b>03</b></div><div class="eco-copies">
+          <div class="eco-copy is-current" data-eco-copy="0"><div class="eco-id">01 / MASAÜSTÜ</div><h2>Büyük düşün.<br><em>Tek ekranda yönet.</em></h2><p>Geniş çalışma alanı ve detaylı eğitim paneli; tüm öğrenme adımları bir bakışta.</p></div>
+          <div class="eco-copy" data-eco-copy="1"><div class="eco-id">02 / TABLET</div><h2>Ekranı değiştir.<br><em>Ritmi kaybetme.</em></h2><p>Tablet deneyimi sahneye katılır. İster masanda ister hareket hâlinde, aynı akış devam eder.</p></div>
+          <div class="eco-copy" data-eco-copy="2"><div class="eco-id">03 / MOBİL</div><h2>Her yerde öğren.<br><em>Her zaman seninle.</em></h2><p>Telefon da sahneye girer. Masaüstü, tablet ve mobil: tek, kesintisiz bir deneyimin üç farklı yüzü.</p></div>
+        </div><a class="eco-action" href="#iletisim">AKADEMİ İLE TANIŞIN <span>↗</span></a></div>
+        <div class="eco-world" aria-hidden="true"><div class="eco-ribbon eco-ribbon-one"></div><div class="eco-ribbon eco-ribbon-two"></div>
+          <div class="eco-device eco-computer" data-eco-device="desktop"><div class="eco-computer-bezel"><div class="eco-computer-top"><i></i>tabim / akademi <span>⌘ &nbsp; □</span></div>
+            <div class="eco-computer-screen"><div class="eco-side"><b>t.</b><i></i><i></i><i></i><i></i><small>●</small></div><div class="eco-main"><span class="eco-screen-label">PANEL / ÖRNEK ÖĞRENCİ ALANI</span><h3>Yeniden hoş geldin! ✦</h3><div class="eco-metrics"><div><small>Tamamlanan</small><b>12</b><span>↗</span></div><div><small>Devam eden</small><b>04</b><span>●</span></div><div><small>İlerleme</small><b>%82</b><span>↗</span></div></div><div class="eco-dashboard-chart"><span>Haftalık çalışma akışı</span><div><i class="height-31"></i><i class="height-54"></i><i class="height-41"></i><i class="height-73"></i><i class="height-60"></i><i class="height-91"></i><i class="height-77"></i></div></div></div></div></div><div class="eco-monitor-stand"><i></i></div></div>
+          <div class="eco-device eco-tablet" data-eco-device="tablet"><div class="eco-tablet-inner"><span class="eco-tablet-brow">TABİM AKADEMİ <b>●</b></span><span class="eco-tablet-eyebrow">DEVAM EDEN EĞİTİM</span><h3>Bir sonraki dersin<br>hazır.</h3><div class="eco-tablet-banner"><span>✦</span><strong>Uygulamalı eğitim</strong><small>Kursiyer kayıt işlemleri</small><i>▶</i></div><div class="eco-tablet-footer"><span>İLERLEME</span><b>%68</b></div><div class="eco-tablet-track"><i></i></div></div></div>
+          <div class="eco-device eco-phone" data-eco-device="phone"><span class="eco-phone-notch"></span><div class="eco-phone-ui"><span class="eco-phone-brow">09:41 <span>◖ ▂</span></span><div class="eco-phone-logo">t<span>.</span> <small>AKADEMİ</small></div><span class="eco-phone-title">Bugün harikasın!</span><div class="eco-phone-progress"><b>82<small>%</small></b><span>tamamlandı</span></div><span class="eco-phone-course">Son dersin</span><div class="eco-phone-mini"><strong>Sınav ve kayıt işlemleri</strong><small>Devam et &nbsp; ↗</small></div><span class="eco-phone-line"></span></div></div>
+          <div class="eco-orbit-label eco-label-a">✦ &nbsp; AKICI TASARIM</div><div class="eco-orbit-label eco-label-b">↗ &nbsp; TEK PLATFORM</div>
+        </div>
+        <div class="container eco-bottom"><span>ÜÇ EKRAN. TEK DENEYİM.</span><div class="eco-tabs"><button type="button" class="is-current" data-eco-jump="0" aria-label="Masaüstü sahnesi" aria-current="step">01</button><button type="button" data-eco-jump="1" aria-label="Tablet sahnesi">02</button><button type="button" data-eco-jump="2" aria-label="Telefon sahnesi">03</button></div><div class="eco-rail"><i data-eco-progress></i></div></div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="iletisim"><div class="container"><div class="cta-panel"><div><span class="eyebrow eyebrow-on-dark">TABİM İLE TANIŞIN</span><h2>Yeni bir başlangıç,<br><span class="cta-emphasis">güvendiğiniz ekiple.</span></h2><p>Eğitim ihtiyaçlarınızı paylaşın, birlikte doğru içeriği belirleyelim.</p></div><a class="btn" href="mailto:tabim@tabim.com.tr?subject=TAB%C4%B0M%20Akademi%20E%C4%9Fitim%20Talebi">Eğitim Talebi Gönder <svg><use href="#i-arrow-up"/></svg></a></div></div></section>
+
+    <section class="faq" id="sss"><div class="container faq-layout"><div><span class="eyebrow">MERAK EDİLENLER</span><h2 class="section-title">Sıkça sorulan<br>sorular.</h2><p class="faq-intro">Bu bölüm yeni tasarım önerisinin örnek soru-cevap alanıdır. Eğitim erişim koşulları yayına geçmeden önce netleştirilmelidir.</p></div><div class="faq-list">
+      <details><summary>Eğitimlere nasıl ulaşabilirim? <svg><use href="#i-chevron"/></svg></summary><p>Bu önizlemede eğitim kartlarını inceleyebilir ve TABİM ile iletişime geçebilirsiniz. Gerçek eğitim oynatıcı ve hesap sistemi henüz bu tasarıma bağlanmamıştır.</p></details>
+      <details><summary>Eğitimleri telefondan izleyebilir miyim? <svg><use href="#i-chevron"/></svg></summary><p>Hazırlanan arayüz telefon, tablet ve masaüstü ekranlarına uyumludur. Gerçek video altyapısının mobil desteği, entegrasyon aşamasında doğrulanmalıdır.</p></details>
+      <details><summary>Buradaki eğitimler şu anda yayında mı? <svg><use href="#i-chevron"/></svg></summary><p>Hayır. Katalogdaki başlıklar, TABİM’in doğrulanabilen ürün alanlarından hareketle oluşturulmuş örnek içeriklerdir; mevcut kurs envanteri olarak sunulmaz.</p></details>
+      <details><summary>Kurumsal eğitim için nasıl iletişime geçebilirim? <svg><use href="#i-chevron"/></svg></summary><p>TABİM kurumsal iletişim hattı 444 0 940 veya tabim@tabim.com.tr üzerinden talebinizi iletebilirsiniz. Akademiye özel iletişim bilgisi varsa canlı sürümde bununla değiştirilmelidir.</p></details>
+    </div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="#top" aria-label="Ana sayfaya dön"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><b>tabim</b><span>AKADEMİ</span></span></a><p class="footer-about">Bilgiyi erişilebilir, öğrenmeyi kolay, iş süreçlerini daha verimli hâle getirmek için tasarlanan yeni nesil akademi deneyimi.</p></div><div><h4>Keşfedin</h4><div class="footer-col"><a href="#egitimler">Eğitim kataloğu</a><a href="#nasil-calisir">Nasıl çalışır?</a><a href="#neden-biz">Avantajlar</a></div></div><div><h4>Yardım</h4><div class="footer-col"><a href="#sss">Sık sorulan sorular</a><a href="#iletisim">Eğitim talebi</a><a href="https://www.tabim.com.tr/" target="_blank" rel="noopener noreferrer">TABİM kurumsal sitesi</a></div></div><div><h4>İletişim</h4><a class="footer-contact" href="tel:4440940"><svg><use href="#i-phone"/></svg> 444 0 940</a><a class="footer-contact" href="mailto:tabim@tabim.com.tr"><svg><use href="#i-mail"/></svg> tabim@tabim.com.tr</a><div class="footer-contact"><svg><use href="#i-location"/></svg> Ankara · Türkiye</div></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> TABİM Akademi · Yeniden tasarım konsepti</span><span>Bağımsız ön yüz tasarımı · Gerçek kurs/üyelik sistemine bağlı değildir.</span></div></div></footer>
+
+  <!-- Tüm temalar gerçek CSS değişkenlerine bağlı; klavye / screen reader uyumlu. -->
+  <aside class="theme-dock" id="theme-dock" data-open="false" aria-label="Renk paleti ayarları">
+    <button class="theme-launch" id="theme-launch" type="button" aria-controls="theme-panel" aria-expanded="false" aria-label="Renk paletini değiştir">
+      <span class="theme-launch-icon"><svg aria-hidden="true"><use href="#i-palette"/></svg></span>
+      <span class="theme-launch-name">Tema: <span id="theme-current">Midnight Ocean</span></span>
+      <svg class="theme-launch-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
+    </button>
+    <div class="theme-panel" id="theme-panel" aria-hidden="true" inert>
+      <div class="theme-panel-head"><div><span class="theme-panel-eyebrow">GÖRÜNÜM AYARLARI</span><h2>Tarzını seç.</h2></div>
+        <button class="theme-panel-close" id="theme-panel-close" type="button" aria-label="Renk paleti panelini kapat"><svg><use href="#i-close"/></svg></button></div>
+      <p>Palete dokun. Cihaz sahnelerinden butonlara bütün sayfa anında renklensin.</p>
+      <div class="theme-grid" role="group" aria-label="Renk teması seçenekleri">
+        <button class="theme-option" type="button" data-set-theme="midnight" aria-pressed="true"><span class="theme-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="theme-option-name">Midnight Ocean</span><span class="theme-option-sub">Petrol & turkuaz</span><span class="theme-option-check"><svg><use href="#i-check"/></svg></span></button>
+        <button class="theme-option" type="button" data-set-theme="gold" aria-pressed="false"><span class="theme-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="theme-option-name">Obsidian Gold</span><span class="theme-option-sub">Antrasit & altın</span><span class="theme-option-check"><svg><use href="#i-check"/></svg></span></button>
+        <button class="theme-option" type="button" data-set-theme="cosmic" aria-pressed="false"><span class="theme-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="theme-option-name">Cosmic Violet</span><span class="theme-option-sub">Mor & neon mavi</span><span class="theme-option-check"><svg><use href="#i-check"/></svg></span></button>
+        <button class="theme-option" type="button" data-set-theme="arctic" aria-pressed="false"><span class="theme-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="theme-option-name">Arctic Minimal</span><span class="theme-option-sub">Beyaz & kobalt</span><span class="theme-option-check"><svg><use href="#i-check"/></svg></span></button>
+        <button class="theme-option" type="button" data-set-theme="emerald" aria-pressed="false"><span class="theme-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="theme-option-name">Emerald Night</span><span class="theme-option-sub">Zümrüt & lime</span><span class="theme-option-check"><svg><use href="#i-check"/></svg></span></button>
+        <button class="theme-option" type="button" data-set-theme="classic" aria-pressed="false"><span class="theme-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="theme-option-name">Klasik TABİM</span><span class="theme-option-sub">Eski lacivert & kırmızı</span><span class="theme-option-check"><svg><use href="#i-check"/></svg></span></button>
+      </div>
+      <small class="theme-panel-note">Seçimin bu tarayıcıda otomatik hatırlanır.</small>
+    </div>
+    <span id="theme-announcement" class="sr-only" aria-live="polite"></span>
+  </aside>
+
+  <a href="#top" class="back-to-top" id="back-to-top" aria-label="Sayfanın başına dön"><svg><use href="#i-arrow-up"/></svg></a>
+
+  <div class="modal-backdrop" id="course-modal" role="presentation" aria-hidden="true"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading" tabindex="-1"><button type="button" class="modal-close" id="modal-close" aria-label="Pencereyi kapat"><svg><use href="#i-close"/></svg></button><span class="eyebrow">ÖRNEK EĞİTİM DETAYI</span><h2 id="modal-heading"></h2><p id="modal-description"></p><ul class="modal-modules" id="modal-modules"></ul><div class="modal-cta"><a id="modal-mailto" class="btn btn-primary" href="mailto:tabim@tabim.com.tr">Eğitim Hakkında Bilgi Al <svg><use href="#i-arrow"/></svg></a><button type="button" class="btn btn-outline" id="modal-back">Kataloğa Dön</button></div><div class="demo-note">Bu içerikler demo amaçlıdır. Aktif eğitim veya üyelik altyapısı bulunmamaktadır.</div></div></div>
+  <script src="assets/js/catalog.js"></script>
+
+  <script src="assets/js/motion.js"></script>
+
+
+  <script src="assets/js/cinema.js"></script>
+
+
+<script src="assets/js/studio.js"></script>
+
+
+<script src="assets/js/scenes.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+/* TABİM Akademi · Canlı, erişilebilir tema sistemi
+   Yeni renk paleti eklemek için [data-theme] değişkenleri tanımla.
+   Bütün sahneler aynı renk sözlüğünü kullanır. */
+:root,
+:root[data-theme="midnight"] {
+  --navy:#091521; --navy2:#091521; --ink:#122934; --muted:#5d7781;
+  --paper:#ffffff; --bg:#f1fafc; --line:#dbeaec;
+  --accent:#116b7c; --accent2:#31d6c4; --sky:#1f6982; --lightblue:#e2f5f6; --lime:#31d6c4;
+  --t-highlight:#56ecdc; --t-dark:#091521; --t-dark-mid:#142b3d; --t-dark-light:#1f6982;
+  --t-halo:rgba(49,214,196,.28); --t-halo-strong:rgba(49,214,196,.43);
+  --t-dark-surface:#142b3d; --t-light-surface:#eefbfb; --t-ink:#122934;
+  --t-eco:#eefcfc; --t-eco-bright:#d5f4f5; --t-cta:#112939; --t-footer:#091521;
+  --t-tag:#a7f9ed; --t-secondary:#1f6982; --t-soft:#e6f8f6;
+  --t-button-text:#fff; --t-button-hover:#0e5261; --t-outline:#aecbd0;
+}
+:root[data-theme="gold"] {
+  --navy:#101214; --navy2:#101214; --ink:#252322; --muted:#706b64;
+  --paper:#ffffff; --bg:#f6f3ed; --line:#e5ddd1;
+  --accent:#95662f; --accent2:#e4c49a; --sky:#b88952; --lightblue:#f5eadb; --lime:#e4c49a;
+  --t-highlight:#eac99b; --t-dark:#101214; --t-dark-mid:#24282c; --t-dark-light:#654f39;
+  --t-halo:rgba(228,196,154,.24); --t-halo-strong:rgba(228,196,154,.38);
+  --t-dark-surface:#24282c; --t-light-surface:#fbf6ed; --t-ink:#252322;
+  --t-eco:#f6f3ed; --t-eco-bright:#f2e5d1; --t-cta:#24201d; --t-footer:#101214;
+  --t-tag:#f5d6ac; --t-secondary:#95662f; --t-soft:#f8eddb;
+  --t-button-text:#fff; --t-button-hover:#714c23; --t-outline:#d1c3ae;
+}
+:root[data-theme="cosmic"] {
+  --navy:#0c0920; --navy2:#0c0920; --ink:#211b40; --muted:#6f6689;
+  --paper:#ffffff; --bg:#f7f5ff; --line:#e6e1f4;
+  --accent:#7040d7; --accent2:#49d9ff; --sky:#8054ed; --lightblue:#f0eaff; --lime:#49d9ff;
+  --t-highlight:#b59aff; --t-dark:#0c0920; --t-dark-mid:#221a43; --t-dark-light:#59369d;
+  --t-halo:rgba(128,84,237,.34); --t-halo-strong:rgba(73,217,255,.35);
+  --t-dark-surface:#221a43; --t-light-surface:#f5efff; --t-ink:#211b40;
+  --t-eco:#f5f1ff; --t-eco-bright:#e4d9ff; --t-cta:#21133f; --t-footer:#0c0920;
+  --t-tag:#d1bbff; --t-secondary:#7040d7; --t-soft:#f0e9ff;
+  --t-button-text:#fff; --t-button-hover:#5129aa; --t-outline:#c9bde9;
+}
+:root[data-theme="arctic"] {
+  --navy:#18233d; --navy2:#172845; --ink:#18233d; --muted:#62708a;
+  --paper:#ffffff; --bg:#f5f7fb; --line:#dce5f1;
+  --accent:#285bd6; --accent2:#74b4ff; --sky:#386cf4; --lightblue:#e8f0ff; --lime:#95d9ff;
+  --t-highlight:#a0cbff; --t-dark:#18233d; --t-dark-mid:#273f6b; --t-dark-light:#386cf4;
+  --t-halo:rgba(56,108,244,.24); --t-halo-strong:rgba(116,180,255,.39);
+  --t-dark-surface:#263d65; --t-light-surface:#f5f8ff; --t-ink:#18233d;
+  --t-eco:#f8fbff; --t-eco-bright:#e1eafb; --t-cta:#253d6b; --t-footer:#18233d;
+  --t-tag:#c3d9ff; --t-secondary:#386cf4; --t-soft:#edf3ff;
+  --t-button-text:#fff; --t-button-hover:#1e46a8; --t-outline:#c1d0ef;
+}
+:root[data-theme="emerald"] {
+  --navy:#071c1b; --navy2:#071c1b; --ink:#143d33; --muted:#61796f;
+  --paper:#ffffff; --bg:#f1faf6; --line:#d9ebe2;
+  --accent:#117760; --accent2:#b8f36b; --sky:#168a73; --lightblue:#e2f5ec; --lime:#b8f36b;
+  --t-highlight:#b8f36b; --t-dark:#071c1b; --t-dark-mid:#123c35; --t-dark-light:#168a73;
+  --t-halo:rgba(184,243,107,.20); --t-halo-strong:rgba(22,138,115,.38);
+  --t-dark-surface:#123c35; --t-light-surface:#eaf8f0; --t-ink:#143d33;
+  --t-eco:#effaf2; --t-eco-bright:#d9f4e2; --t-cta:#113c32; --t-footer:#071c1b;
+  --t-tag:#d7ff9e; --t-secondary:#168a73; --t-soft:#e7f6e8;
+  --t-button-text:#fff; --t-button-hover:#085d4a; --t-outline:#b6d8c6;
+}
+:root[data-theme="classic"] {
+  --navy:#101b35; --navy2:#0b1429; --ink:#18233a; --muted:#67738a;
+  --paper:#fff; --bg:#f7f9fd; --line:#e5eaf1;
+  --accent:#ed5465; --accent2:#ff7b65; --sky:#4b7bf5; --lightblue:#ecf1ff; --lime:#ccfb81;
+  --t-highlight:#ff8391; --t-dark:#070e21; --t-dark-mid:#162a56; --t-dark-light:#51469e;
+  --t-halo:rgba(237,84,101,.25); --t-halo-strong:rgba(255,145,178,.38);
+  --t-dark-surface:#142340; --t-light-surface:#f3f5ff; --t-ink:#18233a;
+  --t-eco:#f5f6ff; --t-eco-bright:#d6defe; --t-cta:#111f3b; --t-footer:#0e1931;
+  --t-tag:#ffa4b5; --t-secondary:#4b7bf5; --t-soft:#fff0f2;
+  --t-button-text:#fff; --t-button-hover:#e63e53; --t-outline:#d4dce9;
+}
+
+/* Sayfa, navigasyon ve katalog. Orijinal 3D/scroll transformlarına dokunulmaz. */
+html { color-scheme:light; }
+body { background:var(--bg); color:var(--ink); }
+button:focus-visible, a:focus-visible, input:focus-visible {outline-color:var(--t-secondary)}
+::selection {background:var(--t-highlight); color:var(--t-dark)}
+.top-strip {background:var(--t-dark)}
+.header {background:color-mix(in srgb,var(--paper) 96%,transparent);border-bottom-color:var(--line)}
+.nav-links a {color:var(--muted)}
+.brand-mark {background:var(--navy)}
+.brand-text b {color:var(--navy)}
+.brand-text span {color:var(--accent)}
+.btn-primary {background:var(--accent);color:var(--t-button-text);box-shadow:0 12px 28px color-mix(in srgb,var(--accent) 24%,transparent)}
+.btn-primary:hover {background:var(--t-button-hover);box-shadow:0 16px 32px color-mix(in srgb,var(--accent) 35%,transparent)}
+.btn-dark {background:var(--navy);color:white}
+.btn-outline {border-color:var(--t-outline);background:var(--paper);color:var(--ink)}
+.eyebrow {color:var(--t-secondary)}
+.hero {background:var(--navy2)}
+.hero:after {background:radial-gradient(circle,var(--t-halo),transparent 66%)}
+.hero-spotlight {background:radial-gradient(560px circle at var(--spot-x,75%) var(--spot-y,43%),var(--t-halo),transparent 72%)}
+.hero h1 em {color:var(--t-highlight)}
+.hero-kicker i {background:var(--lime);box-shadow:0 0 0 4px var(--t-halo)}
+.hero-benefits svg {color:var(--lime)}
+.hero-orbit {border-color:var(--t-halo)}
+.ui-mark i {background:var(--accent)}
+.ui-progress {background:var(--t-dark-surface)}
+.ui-progress .bar i {background:var(--t-highlight)}
+.circle-progress {background:conic-gradient(var(--t-highlight) 0 68%,#35445c 68% 100%)}
+.circle-progress:before {background:var(--t-dark-surface)}
+.quickgrid,.course-card,.why-card,.learn-dashboard,.modal,.why-milestone {background:var(--paper);border-color:var(--line)}
+.quick-icon {background:var(--t-soft);color:var(--t-secondary)}
+.quickitem:nth-child(2) .quick-icon,.quickitem:nth-child(3) .quick-icon {background:var(--t-soft);color:var(--t-secondary)}
+.filter-btn {background:var(--paper);border-color:var(--line);color:var(--muted)}
+.filter-btn.is-active {background:var(--navy);border-color:var(--navy);color:white}
+.course-card:hover {box-shadow:0 26px 65px color-mix(in srgb,var(--navy) 15%,transparent)}
+.course-meta,.course-foot,.course-content p {color:var(--muted)}
+.course-foot button {color:var(--t-secondary)}
+.art-blue,.art-pink,.art-teal,.art-purple,.art-peach,.art-ice {background:linear-gradient(140deg,var(--lightblue),var(--t-soft))}
+.course-art .art-large-icon {color:var(--t-secondary)}
+.why {background:var(--t-light-surface)}
+.why:before {background:radial-gradient(circle at 18% 45%,var(--t-halo),transparent 28%),radial-gradient(circle at 85% 70%,var(--t-halo),transparent 20%)}
+.why-card:before {background:radial-gradient(260px circle at var(--glow-x) var(--glow-y),var(--t-soft),var(--paper) 75%)}
+.why-icon,.why-milestone i {background:var(--t-soft);color:var(--t-secondary)}
+.why-milestone:nth-child(2) i,.why-milestone:nth-child(3) i {background:var(--t-soft);color:var(--t-secondary)}
+.why-milestone:hover i {background:var(--t-soft);color:var(--accent)}
+.why-journey:before {background:linear-gradient(90deg,transparent,var(--t-secondary),var(--accent),transparent)}
+.learn-video {background:linear-gradient(135deg,var(--t-dark),var(--t-dark-light))}
+.play-btn {color:var(--accent)}
+.cta-panel {background:var(--t-cta);box-shadow:0 24px 70px color-mix(in srgb,var(--t-dark) 20%,transparent)}
+.cta-panel:after {background:radial-gradient(360px circle at var(--cta-x,80%) var(--cta-y,50%),var(--t-halo-strong),transparent 70%)}
+.cta-emphasis {background:linear-gradient(100deg,#fff 0%,var(--t-highlight) 42%,#fff 78%);background-size:210% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+.cta-emphasis::after {background:linear-gradient(90deg,var(--t-highlight),var(--accent2),transparent)}
+.cta-panel .btn:before {color:var(--t-highlight)}
+.footer {background:var(--t-footer)}
+.modal-backdrop {background:color-mix(in srgb,var(--t-dark) 78%,transparent)}
+
+/* Laptop sahnesi ve ışıkları: geometriler değişmez, yalnız renk ortamı değişir. */
+.cinema-section {background:var(--t-dark)}
+.cinema-sticky {background:radial-gradient(ellipse at 78% 55%,var(--t-dark-light) 0%,var(--t-dark-mid) 42%,var(--t-dark) 78%)}
+.scene-copy h2 em {background:linear-gradient(100deg,var(--t-highlight),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cinema-spark {background:var(--t-highlight);box-shadow:0 0 17px 6px var(--t-halo-strong)}
+.cinema-label {border-color:var(--t-halo);background:color-mix(in srgb,var(--t-dark-light) 27%,transparent)}
+.cinema-track-fill,#cinema-track-fill {background:linear-gradient(90deg,var(--accent),var(--t-highlight))}
+.cinema-step.is-active,.cinema-step:hover {color:var(--t-highlight)}
+.cinema-ticker {background:var(--t-dark-surface)}
+.ticker-inner i {color:var(--t-highlight)}
+.cinema-sticky .device-reflection {background:linear-gradient(120deg,transparent,var(--t-halo),transparent)}
+
+/* Ekran 360: tüm vurgu ve neon halkaları değişir. */
+.lab-section {background:var(--t-dark)}
+.lab-section:before {background:radial-gradient(ellipse 36% 40% at 80% 55%,var(--t-halo-strong),transparent 80%),radial-gradient(ellipse 28% 24% at 12% 16%,var(--t-halo),transparent 80%)}
+.lab-aura {background:radial-gradient(ellipse at 50% 50%,var(--t-halo-strong),transparent 63%)}
+.lab-orbit {border-color:var(--t-halo)}
+.lab-phone-ring {background:conic-gradient(var(--t-highlight) var(--ring-value,33%),#d8dff2 0)}
+.lab-phone-brand span {background:var(--accent)}
+.lab-phone-bars i.is-current,.lab-stage-pagination i.is-active,.lab-player-timeline i {background:var(--accent2)}
+.lab-player-play {color:var(--accent)}
+.lab-screen-player {background:linear-gradient(135deg,var(--t-dark),var(--t-dark-light))}
+.lab-player-glow {background:radial-gradient(ellipse at 50% 35%,var(--t-halo-strong),transparent 55%)}
+.lab-chart-cols i {background:linear-gradient(0deg,var(--t-secondary),var(--t-highlight))}
+.lab-chart-cols i:last-child {background:linear-gradient(var(--accent2),var(--accent))}
+.lab-progress-card>i>i {background:linear-gradient(90deg,var(--t-secondary),var(--accent2))}
+.lab-progress-card b {color:var(--accent)}
+.lab-float-card>span {background:var(--t-soft);color:var(--accent)}
+
+/* Uçan tablet, başarı kartları, masaüstü + mobil üçlü. */
+.motion-sticky {background:radial-gradient(ellipse at 81% 49%,var(--t-dark-light),var(--t-dark-mid) 40%,var(--t-dark) 78%)}
+.motion-sticky:after {background:linear-gradient(90deg,color-mix(in srgb,var(--t-dark) 68%,transparent),transparent 70%)}
+.motion-text h2 em {color:var(--t-highlight)}
+.mv-tablet {box-shadow:0 48px 100px #000a,0 0 0 1px #ffffff4b,0 0 95px var(--t-halo-strong);background:var(--t-dark)}
+.mv-video {background:linear-gradient(135deg,var(--t-highlight),var(--accent));box-shadow:0 0 0 10px #ffffff17,0 0 32px var(--t-halo-strong)}
+.mv-success-glass {background:linear-gradient(140deg,var(--t-dark-surface),var(--t-dark-mid))}
+.mv-success-star {color:var(--t-highlight)}
+.mv-float-note span {background:var(--t-soft);color:var(--accent)}
+.motion-jumps .is-current {color:var(--t-highlight)}
+.motion-long-track i {background:linear-gradient(90deg,var(--accent),var(--t-highlight))}
+.eco-sticky {background:var(--t-eco);color:var(--t-ink)}
+.eco-sticky:before {background:radial-gradient(ellipse at 83% 45%,var(--t-eco-bright),transparent 55%)}
+.eco-copy h2 em {color:var(--accent)}
+.eco-light-a,.eco-light-b {background:radial-gradient(circle,var(--t-halo),transparent 69%)}
+.eco-action {color:var(--accent)}
+.eco-phone-progress {background:conic-gradient(var(--accent2) 0 82%,var(--line) 82%)}
+.eco-tablet-banner {background:linear-gradient(120deg,var(--t-dark-surface),var(--t-secondary))}
+.eco-tabs .is-current {background:var(--accent);border-color:var(--accent);color:white}
+.eco-rail i {background:linear-gradient(90deg,var(--t-secondary),var(--accent))}
+
+/* Tema seçici: küçük ekranlarda taşmayan sabit panel. */
+.theme-dock {position:fixed;z-index:110;left:max(16px,env(safe-area-inset-left));bottom:max(18px,env(safe-area-inset-bottom));font-family:inherit;}
+.theme-launch {appearance:none;display:flex;align-items:center;gap:11px;max-width:min(88vw,275px);min-height:50px;padding:8px 14px 8px 10px;background:var(--t-dark);color:white;border:1px solid color-mix(in srgb,var(--t-highlight) 30%,transparent);border-radius:999px;box-shadow:0 12px 40px #0004;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease;}
+.theme-launch:hover {transform:translateY(-3px);box-shadow:0 15px 40px #0005;}
+.theme-launch:focus-visible,.theme-option:focus-visible,.theme-panel-close:focus-visible {outline:3px solid var(--t-highlight);outline-offset:3px}
+.theme-launch-icon {width:32px;height:32px;flex:none;display:grid;place-items:center;border-radius:50%;background:var(--t-dark-light);color:var(--t-highlight)}
+.theme-launch-icon svg {height:17px;width:17px;}
+.theme-launch-name {white-space:nowrap;font-size:12px;font-weight:850;letter-spacing:.1px;text-align:left}
+.theme-launch-arrow {height:15px;width:15px;opacity:.75;transition:transform .25s ease}
+.theme-dock[data-open="true"] .theme-launch-arrow {transform:rotate(180deg)}
+.theme-panel {position:absolute;left:0;bottom:calc(100% + 12px);width:min(358px,calc(100vw - 32px));max-height:min(610px,calc(100dvh - 120px));overflow:auto;overscroll-behavior:contain;overscroll-behavior-y:contain;display:block;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:0 25px 80px #060f2460;opacity:0;visibility:hidden;transform:translateY(10px) scale(.97);transform-origin:bottom left;pointer-events:none;transition:opacity .25s ease,visibility .25s ease,transform .32s cubic-bezier(.22,1,.36,1)}
+.theme-dock[data-open="true"] .theme-panel {opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0) scale(1)}
+.theme-panel-head {display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:5px}
+.theme-panel-eyebrow {color:var(--accent);font-size:9px;letter-spacing:2px;font-weight:900}
+.theme-panel h2 {font-size:22px;letter-spacing:-.8px;line-height:1.2;margin:4px 0 0}
+.theme-panel p {margin:0 0 15px;color:var(--muted);font-size:11px;line-height:1.5}
+.theme-panel-close {height:30px;width:30px;flex:none;display:grid;place-items:center;background:var(--t-soft);border:0;border-radius:9px;color:var(--ink)}
+.theme-panel-close svg {width:16px;height:16px}
+.theme-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.theme-option {appearance:none;position:relative;text-align:left;background:var(--paper);color:var(--ink);border:1.5px solid var(--line);border-radius:14px;overflow:hidden;padding:10px 10px 12px;min-width:0;transition:transform .24s,border-color .24s,box-shadow .24s;cursor:pointer}
+.theme-option:hover {transform:translateY(-2px);border-color:var(--t-outline)}
+.theme-option[aria-pressed="true"] {border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 17%,transparent)}
+.theme-swatches {height:40px;border-radius:8px;display:flex;overflow:hidden;margin-bottom:10px;border:1px solid #00000013}
+.theme-swatches i {flex:1;display:block;background:var(--swatch)}
+.theme-option[data-set-theme="midnight"] .theme-swatches i:nth-child(1){--swatch:#091521}.theme-option[data-set-theme="midnight"] .theme-swatches i:nth-child(2){--swatch:#142b3d}.theme-option[data-set-theme="midnight"] .theme-swatches i:nth-child(3){--swatch:#1f6982}.theme-option[data-set-theme="midnight"] .theme-swatches i:nth-child(4){--swatch:#31d6c4}
+.theme-option[data-set-theme="gold"] .theme-swatches i:nth-child(1){--swatch:#101214}.theme-option[data-set-theme="gold"] .theme-swatches i:nth-child(2){--swatch:#24282c}.theme-option[data-set-theme="gold"] .theme-swatches i:nth-child(3){--swatch:#b88952}.theme-option[data-set-theme="gold"] .theme-swatches i:nth-child(4){--swatch:#e4c49a}
+.theme-option[data-set-theme="cosmic"] .theme-swatches i:nth-child(1){--swatch:#0c0920}.theme-option[data-set-theme="cosmic"] .theme-swatches i:nth-child(2){--swatch:#221a43}.theme-option[data-set-theme="cosmic"] .theme-swatches i:nth-child(3){--swatch:#8054ed}.theme-option[data-set-theme="cosmic"] .theme-swatches i:nth-child(4){--swatch:#49d9ff}
+.theme-option[data-set-theme="arctic"] .theme-swatches i:nth-child(1){--swatch:#f5f7fb}.theme-option[data-set-theme="arctic"] .theme-swatches i:nth-child(2){--swatch:#fff}.theme-option[data-set-theme="arctic"] .theme-swatches i:nth-child(3){--swatch:#dce5f1}.theme-option[data-set-theme="arctic"] .theme-swatches i:nth-child(4){--swatch:#386cf4}
+.theme-option[data-set-theme="emerald"] .theme-swatches i:nth-child(1){--swatch:#071c1b}.theme-option[data-set-theme="emerald"] .theme-swatches i:nth-child(2){--swatch:#123c35}.theme-option[data-set-theme="emerald"] .theme-swatches i:nth-child(3){--swatch:#168a73}.theme-option[data-set-theme="emerald"] .theme-swatches i:nth-child(4){--swatch:#b8f36b}
+.theme-option[data-set-theme="classic"] .theme-swatches i:nth-child(1){--swatch:#101b35}.theme-option[data-set-theme="classic"] .theme-swatches i:nth-child(2){--swatch:#0b1429}.theme-option[data-set-theme="classic"] .theme-swatches i:nth-child(3){--swatch:#ed5465}.theme-option[data-set-theme="classic"] .theme-swatches i:nth-child(4){--swatch:#ff7b65}
+.theme-option-name {display:block;font-size:11px;font-weight:900;line-height:1.3}
+.theme-option-sub {display:block;font-size:9px;color:var(--muted);line-height:1.3;margin-top:4px}
+.theme-option-check {position:absolute;top:14px;right:14px;width:20px;height:20px;display:grid;place-items:center;color:var(--accent);border-radius:50%;background:var(--paper);opacity:0;box-shadow:0 2px 8px #0003}
+.theme-option[aria-pressed="true"] .theme-option-check {opacity:1}
+.theme-option-check svg {width:13px;height:13px}
+.theme-panel-note {display:block;margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:10px;color:var(--muted)}
+@media(max-width:570px) { .theme-launch {min-height:44px;padding:6px 11px 6px 7px;gap:8px}.theme-launch-icon{width:29px;height:29px}.theme-launch-name{font-size:10px}.theme-dock{bottom:max(12px,env(safe-area-inset-bottom));left:max(12px,env(safe-area-inset-left))}.theme-panel{width:min(342px,calc(100vw - 24px));padding:15px}.theme-panel h2{font-size:19px}.theme-swatches{height:34px}.theme-option{padding:8px}.theme-grid{gap:7px} }
+@media(prefers-reduced-motion:reduce){.theme-launch,.theme-panel,.theme-option,.theme-launch-arrow{transition:none!important}}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Cihaz mockuplarında da tema bütünlüğü: başlık, grafik ve rozetler. */
+.lab-mini-logo,.lab-phone-brand span {background:var(--accent)}
+.lab-tab.is-active {border-color:var(--t-halo-strong);box-shadow:0 8px 36px color-mix(in srgb,var(--t-dark) 35%,transparent)}
+.lab-tab.is-active .lab-tab-number {color:var(--t-highlight)}
+.lab-stat strong span {color:var(--t-secondary)}
+.lab-float-card .check {background:var(--t-soft);color:var(--t-secondary)}
+.mv-stack-card .stack-icon {background:var(--t-soft);color:var(--t-secondary)}
+.mv-success-star {background:linear-gradient(145deg,var(--t-highlight),var(--t-secondary));color:var(--t-dark);box-shadow:0 0 0 12px var(--t-halo),0 0 75px var(--t-halo-strong)}
+.eco-computer-top {background:var(--t-soft)}
+.eco-computer-screen {background:var(--t-light-surface)}
+.eco-dashboard-chart i {background:linear-gradient(var(--t-highlight),var(--accent))}
+.eco-phone-logo {color:var(--accent)}
+.eco-metrics>div span {color:var(--t-secondary)}
+.eco-phone-title {color:var(--ink)}
+.art-blue {background:linear-gradient(135deg,var(--lightblue),var(--t-soft))}
+.art-pink {background:linear-gradient(145deg,var(--t-soft),color-mix(in srgb,var(--accent2) 17%,white))}
+.art-teal {background:linear-gradient(145deg,var(--lightblue),color-mix(in srgb,var(--t-secondary) 12%,white))}
+.art-purple {background:linear-gradient(135deg,var(--t-soft),color-mix(in srgb,var(--t-highlight) 14%,white))}
+.art-peach {background:linear-gradient(145deg,color-mix(in srgb,var(--accent2) 18%,white),var(--t-soft))}
+.art-ice {background:linear-gradient(135deg,var(--lightblue),color-mix(in srgb,var(--sky) 13%,white))}
